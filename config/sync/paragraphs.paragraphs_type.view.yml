@@ -1,0 +1,9 @@
+uuid: 05d1181c-2581-4618-8acb-3bb182f68d46
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KR3pc_g_oaoI-NGEhh0vH2nH8YQdLb4Ax7pThX9GKx0
+id: view
+label: View
+behavior_plugins: {  }

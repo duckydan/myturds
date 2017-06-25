@@ -1,0 +1,23 @@
+uuid: a5abf689-c3c6-4ead-b57f-7614706ff1f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_width
+    - paragraphs.paragraphs_type.block
+  module:
+    - options
+_core:
+  default_config_hash: BkP9Ttzhy_-taFAfAH19AwvwaREfqsEDfDuTntb8zzo
+id: paragraph.block.field_width
+field_name: field_width
+entity_type: paragraph
+bundle: block
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

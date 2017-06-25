@@ -1,0 +1,23 @@
+uuid: a8bac73b-fa6f-4d93-9da1-b7fe5d020a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_width
+    - paragraphs.paragraphs_type.modal
+  module:
+    - options
+_core:
+  default_config_hash: f6T3vSNN9jZdoZf-OxeqPVXiC6zPcDNOfycNfwKWvWg
+id: paragraph.modal.field_width
+field_name: field_width
+entity_type: paragraph
+bundle: modal
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

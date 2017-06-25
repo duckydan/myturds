@@ -1,0 +1,14 @@
+uuid: a7891f17-85a4-4c81-b8eb-df2487c04493
+name: 'My Turds'
+mail: develand@gmail.com
+slogan: 'I added this in code'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

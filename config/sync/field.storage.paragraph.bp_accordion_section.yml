@@ -1,0 +1,22 @@
+uuid: 38604c80-99e4-4ebc-8c3d-7e0166d9aa67
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: q4fnGN4mMCXFzOzDYLzwQ4AVzeSWJNqLPjds7RVlNVI
+id: paragraph.bp_accordion_section
+field_name: bp_accordion_section
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

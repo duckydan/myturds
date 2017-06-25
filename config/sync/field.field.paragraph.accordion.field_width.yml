@@ -1,0 +1,23 @@
+uuid: 9b2ca728-5077-4079-abbc-8ce05fb0d45c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_width
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - options
+_core:
+  default_config_hash: zN34wfKXnPoD4CFNDBAOZH-Vp4XiebfwkyBYpgUiHzA
+id: paragraph.accordion.field_width
+field_name: field_width
+entity_type: paragraph
+bundle: accordion
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

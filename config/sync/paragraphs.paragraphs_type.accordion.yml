@@ -1,0 +1,9 @@
+uuid: 872d2079-5eeb-41a9-87bb-5be9d4bd6626
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WPy1Qf8SD9etzHeZAqPjMR27UwULGPVCIuHy7hv5vNg
+id: accordion
+label: Accordion
+behavior_plugins: {  }

@@ -1,0 +1,9 @@
+uuid: ce64a8e8-1f38-4def-b29c-cf7df39d9856
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tv6tfctEOCE3CkHHM47PGDvwMHCRmCwNIF4pV7PZVOY
+id: contact
+label: 'Contact Form'
+behavior_plugins: {  }

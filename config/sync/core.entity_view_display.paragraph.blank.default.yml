@@ -1,0 +1,49 @@
+uuid: 8cd5560d-8ed3-4aaa-870f-ada14e6f8085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blank.field_background
+    - field.field.paragraph.blank.field_unrestricted
+    - field.field.paragraph.blank.field_width
+    - paragraphs.paragraphs_type.blank
+  module:
+    - field_layout
+    - layout_discovery
+    - options
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: nZwXhBzWd8gTJZKbPBXNcLHBTgjMEbW8rqkwdsEFHHM
+id: paragraph.blank.default
+targetEntityType: paragraph
+bundle: blank
+mode: default
+content:
+  field_background:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_unrestricted:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_width:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden:
+  created: true
+  uid: true

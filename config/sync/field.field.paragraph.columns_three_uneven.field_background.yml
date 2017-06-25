@@ -1,0 +1,23 @@
+uuid: 794ed9a8-b311-471f-ad42-ce7b8cd01876
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.columns_three_uneven
+  module:
+    - options
+_core:
+  default_config_hash: RqYtN0CONZX5OzeEzujbO66MF9oNk0luAFPUJmDR1hQ
+id: paragraph.columns_three_uneven.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: columns_three_uneven
+label: Background
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

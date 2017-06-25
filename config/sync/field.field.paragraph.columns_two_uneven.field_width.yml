@@ -1,0 +1,23 @@
+uuid: 9bd04f5a-ad27-444d-a8d2-e91c622409a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_width
+    - paragraphs.paragraphs_type.columns_two_uneven
+  module:
+    - options
+_core:
+  default_config_hash: KqZ0NB82ZbviB6CWuxRJeV9FvKaxk7HqTGdecvplj9c
+id: paragraph.columns_two_uneven.field_width
+field_name: field_width
+entity_type: paragraph
+bundle: columns_two_uneven
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: 26315432-e838-4689-b2c0-7fa99ce74b6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_width
+    - paragraphs.paragraphs_type.blank
+  module:
+    - options
+_core:
+  default_config_hash: VcGUapSezOPUa8q486QAHmxkOhE8sGUgub9PI560p_c
+id: paragraph.blank.field_width
+field_name: field_width
+entity_type: paragraph
+bundle: blank
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

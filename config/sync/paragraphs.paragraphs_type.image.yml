@@ -1,0 +1,9 @@
+uuid: b6e14bb7-4580-4d94-8397-0a578ed84251
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 27P8-zXGWdj4LWc8eF8VdB0nWRmkuccSQqNK5Zt6huk
+id: image
+label: Image
+behavior_plugins: {  }

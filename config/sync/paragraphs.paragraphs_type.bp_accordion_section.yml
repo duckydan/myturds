@@ -1,0 +1,9 @@
+uuid: 43e30a68-147a-4b86-a6db-939f7cd00a5c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wHtg6KfNIFZjjWqrg2XnUkHTR-9owISmWOsc27tT-zg
+id: bp_accordion_section
+label: 'Accordion Section'
+behavior_plugins: {  }

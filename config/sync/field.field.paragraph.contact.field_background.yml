@@ -1,0 +1,23 @@
+uuid: dfa1b978-8296-4442-bece-4e0e12abeb56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.contact
+  module:
+    - options
+_core:
+  default_config_hash: ZaKWLu9EtWzDrSNwYsQrM_zuzCqH3K4e8e4f8sx51os
+id: paragraph.contact.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: contact
+label: Background
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

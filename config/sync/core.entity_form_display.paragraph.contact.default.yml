@@ -1,0 +1,46 @@
+uuid: 31a30c33-fa0c-4e29-802b-44f1e6738774
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contact.field_background
+    - field.field.paragraph.contact.field_contact
+    - field.field.paragraph.contact.field_width
+    - paragraphs.paragraphs_type.contact
+  module:
+    - content_moderation
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: gon06lP_3A1qEsl78hJk_dCfsF3dPIT9NWjG5QLfejA
+id: paragraph.contact.default
+targetEntityType: paragraph
+bundle: contact
+mode: default
+content:
+  field_background:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_contact:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_width:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,9 @@
+uuid: e365fc7a-b44a-41ea-a668-4a5a3c335ca6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lZcWy5_i-gu92hDSZPDBR0ZhhGIdLM7kMQIJj3U4cC0
+id: tab_section
+label: 'Tab Section'
+behavior_plugins: {  }
